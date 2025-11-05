@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>P.R.I.M.O. — Home</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-inner container">
+    <div class="logo">P.R.I.M.O.</div>
+  </div>
+  <nav class="nav container" aria-label="Main navigation">
+    <a href="home.html">Home</a>
+    <a href="details.html">Details</a>
+    <a href="team.html">Team</a>
+  </nav>
+</header>
+
+<main class="container">
+  <section id="home" class="hero">
+    <div class="left fade-in">
+      <div style="font-weight:700;color:var(--accent)">School Project — Robotic Innovation</div>
+      <h1 class="h-title">P.R.I.M.O.<br><span style="color:var(--accent2);font-weight:900">Precious Responsible Intelligent Manav Observant</span></h1>
+      <p class="h-sub">A student-built smart robotic companion that sees, speaks, moves, and acts responsibly — designed for education, safety, and support.</p>
+      <p class="lead">P.R.I.M.O. stands for Precious Responsible Intelligent Manav Observant. It is a smart robotic creation designed to assist humans: it can see, talk, move, and respond intelligently using sensors and programmed behaviour. Built with eco-friendly materials and solar charging in mind, P.R.I.M.O. aims to provide helpful support in schools, homes, hospitals, public places, and defense zones while following ethical guidelines.</p>
+      <div class="cta">
+        <a class="btn" href="details.html">View Details</a>
+        <a class="btn ghost" href="team.html">Meet the Team</a>
+      </div>
+    </div>
+    <aside class="card fade-in" style="display:grid;place-items:center">
+      <svg width="240" height="220" viewBox="0 0 240 220" xmlns="http://www.w3.org/2000/svg">
+        <rect x="12" y="24" width="216" height="140" rx="18" fill="#061427" stroke="#0ab4ff" stroke-width="2"/>
+        <circle cx="120" cy="80" r="24" fill="#0ab4ff"/>
+        <rect x="70" y="150" width="100" height="10" rx="6" fill="#eaf6ff" opacity="0.06"/>
+        <text x="120" y="200" font-size="14" text-anchor="middle" fill="#9fe8ff">PRIMO</text>
+      </svg>
+    </aside>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© 2025 P.R.I.M.O. Team | DAV Public School, Adityapur</div>
+</footer>
+
+<script src="particles.js"></script>
+<script>document.addEventListener('DOMContentLoaded', ()=>{document.querySelectorAll('.fade-in').forEach((el,i)=> setTimeout(()=> el.classList.add('show'), 120 + i*80));});</script>
+</body>
+</html>
